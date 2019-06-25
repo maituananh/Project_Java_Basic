@@ -1,0 +1,23 @@
+-- câu 1.
+select count("id") from student;
+
+-- câu 2.
+select count("gender") from student where student.gender = "male";
+
+-- câu 3.
+select * from student where student.gender = "female";
+
+-- câu 4.
+select * from student where student.telephone = "";
+
+-- câu 5.
+select * from student where student.age > 18;
+
+-- câu 6.
+select * from student where student.scores > 80;
+
+-- câu 7.
+select * from student where student.scores < 45;
+
+-- câu 8.
+select * from student where student.first_name like "nike" or student.last_name like "nike";
