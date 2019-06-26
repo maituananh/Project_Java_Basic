@@ -10,5 +10,5 @@ create table student(
     telephone varchar(10),
     scores int(3),
     check (scores >= 0 && scores <= 100),
-    check (gender = "female" || gender = "male")
+    check (gender = "female" or gender = "male")
 )default CHARACTER SET 'utf8mb4' COLLATE 'utf8mb4_vietnamese_ci';
