@@ -7,7 +7,7 @@ create table student(
     last_name varchar(20),
     gender varchar(6) not null,
 	age int(3) default 18,
-    telephone varchar(10),
+    telephone bigint(10),
     scores int(3),
     check (scores >= 0 && scores <= 100),
     check (gender = "female" or gender = "male")

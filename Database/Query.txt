@@ -8,7 +8,7 @@ select count("gender") from student where student.gender = "male";
 select * from student where student.gender = "female";
 
 -- câu 4.
-select * from student where student.telephone = "";
+select * from student where student.telephone = 0;
 
 -- câu 5.
 select * from student where student.age > 18;
