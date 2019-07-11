@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+form{
+	margin-top: 40px;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+.error{
+	text-align: center;
+	color: red;
+}
